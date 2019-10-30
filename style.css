@@ -1,0 +1,120 @@
+*{
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+body {
+  font-family: "Open Sans", sans-serif;
+}
+
+.wrap-element1{
+  background-color: #27ae60;
+  overflow: hidden;
+}
+
+
+.element1{
+  width: 200px;
+        height: 200px;
+        line-height: 200px;
+        color: #FFF;
+        text-transform: uppercase;
+        text-align: center;
+}
+
+.element1_Left{
+  float: left;
+  background-color: black;
+  /* background-image: url('../imagens/Ativo1.png'); */
+}
+
+.element1_Right{
+  float: right;
+  background-color: yellow;
+}
+
+header p{
+  /* display: inline-block; */
+  text-align: right;
+}
+.clear {
+  clear: both;
+}
+/* SECTION 2 */
+
+.wrap-element2{
+          background-color: gray;
+          overflow: hidden;
+        }
+
+.element2{
+      width: 50%;
+      height: 200px;
+        line-height: 200px;
+        color: #FFF;
+        text-transform: uppercase;
+        text-align: center;
+}
+
+.element2_Left{
+  float: left;
+  background-color: red;
+}
+
+.element2_Right{
+  float: right;
+  background-color: salmon;
+}
+ 
+/* SECTION 3 */
+
+.wrap-element3{
+  background-color: gray;
+    overflow: hidden;
+}
+
+.element3{
+  width: 100%;
+  height: 200px;
+  line-height: 200px;
+  color: #FFF;
+   text-transform: uppercase;
+   text-align: center;
+}
+
+
+.element3_Top{
+  background-color: skyblue;
+}
+
+/* FORM */
+.wrap-element4{
+  overflow: hidden;
+}
+
+.element4{
+  width: 100%;
+  height: 200px;
+   line-height: 50px; 
+  color: black;
+  text-align: center;
+}
+
+
+/* FOOTER */
+.element-final{
+  /* overflow: hidden; */
+  background-color: purple;
+}
+
+.element5{
+  text-align: center;
+  width: 100%;
+  color: white;
+  line-height: 100px;
+  height: 100px;
+}
+
+
+
